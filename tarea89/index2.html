@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Artículos de Fútbol</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        @keyframes gradientBackground {
+            0% { background-color: #76d7c4; }
+            50% { background-color: #3498db; }
+            100% { background-color: #76d7c4; }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            animation: gradientBackground 10s infinite;
+        }
+        .header {
+            background-color: #3498db;
+            color: #b2babb;
+            padding: 1em;
+            text-align: center;
+        }
+        .menu {
+            background-color: #76d7c4;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            display: flex;
+            justify-content: center;
+        }
+        .menu .menu-item {
+            background-color: #3498db;
+            color: #b2babb;
+            border: 2px solid #76d7c4;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        .inicio-section {
+            padding: 50px 0;
+            background-color: #3498db;
+            border: 1px solid #33ff6e;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
+        .container {
+            color: black;
+            background-color: #76d7c4;
+            border-radius: 10px;
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        .card {
+            border-radius: 10px;
+            background-color: #3498db;
+            width: 100%;
+        }
+        .container2 {
+            background-color: #b2babb;
+            margin-bottom: 30px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body class="animated-background">
+    <div class="header">
+        <h1>Tienda de Artículos de Fútbol</h1>
+    </div>
+    <div class="menu">
+        <a class="menu-item" href="#inicio">Inicio</a>
+        <a class="menu-item" href="#productos">Productos</a>
+        <a class="menu-item" href="#ofert">Ofertas</a>
+        <a class="menu-item" href="#cont">Contacto</a>
+    </div>
+    <div class="container text-center">
+        <img src="bola.png" alt="Imagen destacada" class="img-fluid">
+    </div>
+    <div id="inicio" class="inicio-section text-center">
+        <h1>Inicio</h1>
+        <p>Bienvenidos a nuestra tienda de artículos de fútbol, donde encontrarás todo lo que necesitas para tu pasión por el fútbol. Desde camisetas y balones hasta accesorios y equipos completos, tenemos todo lo que necesitas para llevar tu juego al siguiente nivel.</p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h1></h1>
+            <div class="container2">
+                <div id="productos">
+                    <h1 class="text-center">Productos</h1>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="folders d-flex flex-wrap justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="polera1.png" class="card-img-top" alt="Carpeta 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Poleras de fútbol</h5>
+                            <p class="card-text">Nuestras poleras están diseñadas con tejidos de alta calidad que proporcionan una comodidad inigualable y un ajuste perfecto. Disponibles en una amplia gama de colores y diseños, te aseguran destacar tanto en el campo como fuera de él.</p>
+                        </div>
+                    </div>
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="balon.png" class="card-img-top" alt="Carpeta 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Balón de fútbol</h5>
+                            <p class="card-text">Fabricado con materiales de alta durabilidad, nuestro balón de fútbol te garantiza un rendimiento superior en cada partido. Su diseño multicapa asegura que mantenga su forma y retención de aire, incluso en las condiciones más exigentes.</p>
+                        </div>
+                    </div>
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="guantes.png" class="card-img-top" alt="Carpeta 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Guantes de fútbol</h5>
+                            <p class="card-text">Diseñados con materiales de última generación, nuestros guantes te ofrecen un agarre inigualable y una comodidad excepcional. El látex de alta calidad te garantiza la mejor adherencia al balón en cualquier condición climática.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h1></h1>
+            <div class="container2">
+                <div id="ofert">
+                    <h1 class="text-center">Ofertas</h1>
+                </div>
+            </div>
+            <div class="card-body">
+                <div id="productos" class="folders d-flex flex-wrap justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="tacos1.png" class="card-img-top" alt="Carpeta 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike 10% de descuento</h5>
+                            <p class="card-text">Los tenis de fútbol Nike están diseñados para llevar tu juego al máximo nivel. Con tecnología de punta y un diseño moderno, estos tenis te ofrecen lo mejor en rendimiento y estética.</p>
+                        </div>
+                    </div>
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="tacos2.png" class="card-img-top" alt="Carpeta 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas 20% de descuento</h5>
+                            <p class="card-text">Los tenis de fútbol Adidas están diseñados para maximizar tu rendimiento en el campo. Con tecnología de vanguardia y un diseño elegante, estos tenis te ofrecen lo mejor en estilo y funcionalidad.</p>
+                        </div>
+                    </div>
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="descarga.png" class="card-img-top" alt="Carpeta 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Puma 40% de descuento</h5>
+                            <p class="card-text">Los tenis de fútbol Puma combinan estilo y rendimiento. Con materiales duraderos y tecnología avanzada, estos tenis están diseñados para ofrecerte la mejor experiencia en el campo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center mt-4">
+        <div class="container2">
+            <div id="cont">
+                <h1></h1>
+                <h1 class="text-left">Contacto</h1>
+                <p class="text-left">Teléfono: 78-844-2356</p>
+                <p class="text-left">Email: soporte@tiendadj.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center mt-4">
+        <div class="container2">
+            <h2>Síguenos en Redes Sociales</h2>
+        </div>
+        <div class="social-icons">
+            <a href="https://facebook.com"><img src="facebok2.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="twiter.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+        <button class="button mt-4">Comprar Ahora</button>
+    </div>
+</body>
+</html>
